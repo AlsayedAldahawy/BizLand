@@ -25,7 +25,7 @@
 </head>
 
 <body>
-    <header class="bg-light">
+    <header class="bg-light sticky-top">
         <nav class="navbar navbar-expand-lg text-black mx-auto w-90">
             <div class="container-fluid">
                 <a class="navbar-brand logo fs-4 fw-bold" href="#">
@@ -44,16 +44,16 @@
                                 href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Team</a>
+                            <a class="nav-link" href="#team">Team</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -61,7 +61,7 @@
                                 Drop Down <i class="bi bi-chevron-down ms-1"></i>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action 1</a></li>
+                                <li><a class="dropdown-item" href="#faqs">FAQ</a></li>
                                 <li><a class="dropdown-item" href="#">Action 2</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
@@ -80,7 +80,7 @@
 
     <main>
         <section class="container-fluid hero py-5 m-0 position-relative z-3 d-flex align-items-center"
-            style="background-image: url('./Assets/hero-bg.jpg'); background-size: cover; background-position: center; background-attachment: fixed; height:75vh">
+            style="background-image: url('./Assets/hero-bg.jpg'); background-size: cover; background-repeat:no-repeat; background-attachment: fixed; height:70vh">
             <div class="content container container-md container-sm container-lg py-5">
                 <div class="hero-content my-5">
                     <h1 class="fs-1 fw-bolder">Welcom to <span class="text-primary">BizLand</span></h1>
@@ -149,7 +149,7 @@
             </div>
         </section>
 
-        <section data-aos="fade-up" data-aos-duration="1000" class="container-fluid bg-light">
+        <section id="about" data-aos="fade-up" data-aos-duration="1000" class="container-fluid bg-light">
             <div class="container py-3">
                 <div class="content py-5">
                     <div class="content-head d-flex flex-column align-items-center">
@@ -398,7 +398,7 @@
             </div>
         </section>
 
-        <section data-aos="fade-up" data-aos-duration="1000" class="services container-fluid bg-light">
+        <section id="services" data-aos="fade-up" data-aos-duration="1000" class="services container-fluid bg-light">
             <div class="container py-3 ">
                 <div class="content py-5">
                     <div class="content-head d-flex flex-column align-items-center">
@@ -514,7 +514,7 @@
             </div>
         </section>
 
-        <section data-aos="fade-right" data-aos-duration="1000" class="team container-fluid bg-light">
+        <section id="team" data-aos="fade-right" data-aos-duration="1000" class="team container-fluid bg-light">
             <div class="container py-2">
                 <div class="content py-2">
                     <div class="content-head d-flex flex-column align-items-center">
@@ -578,7 +578,7 @@
             </div>
         </section>
 
-        <section data-aos="fade-up" data-aos-duration="1000" class="faq py-5 bg-light">
+        <section id="faqs" data-aos="fade-up" data-aos-duration="1000" class="faq py-5 bg-light">
             <div class="container py-2">
                 <div class="content py-2">
                     <div class="content-head d-flex flex-column align-items-center">
